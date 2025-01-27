@@ -21,7 +21,7 @@ user can simply open the .html file with any browser userslist page will be show
 2. update the existing userdata by clicking on the Edit button and edit the fields you want and click on the update button.
 3. delete the existing user from list by clicking on the Delete button.
 
-# installation
+# setup and run
 copy the all three files into a folder and open the .html file with any web browser.  
 
 
