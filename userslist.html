@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="./userslist.css" />
+</head>
+
+<body>
+    <div class="bg-container">
+
+        <h1 class="heading">Users List</h1>
+
+        <!--form-container-for-inouts-->
+
+        <form class="user-form-container">
+
+            <div class="for-responsive-layout">
+
+                <div class="input-container">
+                    <label for="firstNameInput">FirstName:</label>
+                    <input id="firstNameInput" placeholder="FirstName" type="text" />
+                    <p class="required hide-required" id="requiredFirstName">*required</p>
+                </div>
+
+                <div class="input-container">
+                    <label for="lastNameInput">LastName:</label>
+                    <input id="lastNameInput" placeholder="LastName" type="text" />
+                    <p class="required hide-required" id="requiredLastName">*required</p>
+                </div>
+
+                <div class="input-container">
+                    <label for="emailInput">Email:</label>
+                    <input id="emailInput" placeholder="E-mail" type="email" />
+                    <p class="required hide-required" id="requiredEmail">*required</p>
+                </div>
+
+                <div class="input-container">
+                    <label for="departmentInput">Department:</label>
+                    <input id="departmentInput" placeholder="Department" type="text" />
+                    <p class="required hide-required" id="requiredDepartment">*required</p>
+                </div>
+
+            </div>
+
+
+            <div class="add-btn-container">
+                <button type="submit" class="add-btn" id="addBtn">Add</button>
+                <button type="submit" class="update-btn" id="updateBtn">Update</button>
+            </div>
+            <p id="responseText"></p>
+        </form>
+
+
+        <!--- list container for-userslist-->
+        <ul class="userslist-container" id="usersListContainer">
+
+        </ul>
+
+    </div>
+
+    <script type="text/javascript" src="./userslist.js"></script>
+</body>
+
+</html>

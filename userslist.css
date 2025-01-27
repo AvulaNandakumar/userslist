@@ -1,0 +1,118 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+    padding: 20px;
+    min-height:100vh;
+    background-color: grey;
+}
+
+.user-form-container {
+    border: 1px solid grey;
+    padding: 50px;
+    width: 80%;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+.for-responsive-layout{
+    display: flex;
+    justify-content: center;
+}
+.add-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+
+
+}
+.add-btn,.update-btn{
+    width: 70%;
+    padding:10px;
+    margin-right: 35px;
+    background-color: green;
+    color: #ffffff;
+    border: 0px;
+}
+.userslist-container{
+    margin-top: 50px;
+    width: 80%;
+    min-height: 0px;
+    max-height: 500px;
+    background-color: #ffffff;
+    list-style-type: none;
+    padding: 50px;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.list-item{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 5px;
+    width: 260px;
+}
+.edit-btn,.del-btn{
+    margin: 5px;
+    padding: 5px 10px;
+    border: 0px;
+    color: #ffffff;
+}
+.edit-btn{
+    background-color: blue;
+}
+.del-btn{
+    background-color: red;
+}
+.required{
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin: 0px 5px;
+    margin-top: 1px;
+}
+.display-required{
+    display: block;
+
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 5px;
+}
+.hide-btn{
+    display: none;
+}
+
+.response-text{
+    text-align: center;
+    color: black;
+}
+.success{
+   color:green ;
+}
+.not-success{
+    color: red;
+}
+@media(max-width:768px){
+    .for-responsive-layout{
+        flex-direction: column;
+    }
+  .add-btn{
+    margin-right: 0px;
+  }
+  body{
+    margin: 0px;
+  }
+}
